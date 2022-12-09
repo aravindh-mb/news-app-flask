@@ -7,7 +7,7 @@ from flask import (Flask, redirect, render_template, request)
 app =  Flask(__name__)
 
 # ============================================  for database with IBM===========================
-conn = ibm_db.connect("DATABASE=bludb;HOSTNAME=3883e7e4-18f5-4afe-be8c-fa31c41761d2.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=31498;SECURITY=SSL;SSLServerCertificate=credientials/DigiCertGlobalRootCA.crt;UID=bgh36879;PWD=TvSzQQQ6Jhaaiwg6",'','')
+conn = ibm_db.connect("DATABASE=bludb;HOSTNAME="";PORT=31498;SECURITY=SSL;SSLServerCertificate=credientials/DigiCertGlobalRootCA.crt;UID=bgh36879;PWD=TvSzQQQ6Jhaaiwg6",'','')
 print(conn)
 print("🟢 connection successfull with IBM_DB ⚡")
 
